@@ -40,3 +40,9 @@ Results are in "00numpages.txt" in the target directory.
 # Sources
 - Inspiration: https://dmitrysotnikov.wordpress.com/2008/06/27/powershell-script-in-a-bat-file/
 - Uses embedded PDFInfo v 4.3 from https://www.xpdfreader.com/ used under terms of GLP 3.
+
+## License
+
+Copyright [2020-2022] Nicholas Grant Cotton
+
+Licensed under the GNU General Public License v3.0
