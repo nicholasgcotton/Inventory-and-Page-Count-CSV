@@ -1,0 +1,23 @@
+;;;===,,,@echo off
+;;;===,,,REM WARNING!!! If this file is longer then 24 lines it includes compiled code and CAN NOT be edited!!
+;;;===,,,REM If you want to edit/modify this program contact Cst Nicholas COTTON for raw code.
+;;;===,,,REM Based on sample code from: 
+;;;===,,,REM https://stackoverflow.com/questions/34623847/embed-a-exe-file-into-a-bat-file-and-auto-copy-to-a-desired-location
+;;;===,,,REM https://dmitrysotnikov.wordpress.com/2008/06/27/powershell-script-in-a-bat-file/
+;;;===,,,REM Uses embedded PDFInfo v 4.3 from https://www.xpdfreader.com/
+;;;===,,,REM Compiled via "copy /a 00-PDFPageCount-v3-Code.bat + /b 00pdfinfo.exe /b 00-PDFPageCount-v3.bat"
+;;;===,,,REM Reminder, last line of this file must be blank for the above to work successfully. 
+;;;===,,,echo PDF Page Count Script V3 - By Cst Nicholas COTTON. nicholas.cotton@rcmp-grc.gc.ca
+;;;===,,,echo This app will print a list of PDFs and their page count to 00numpages.txt
+;;;===,,,echo Warning! This app will overwrite any existing 00numpages.txt.
+;;;===,,,echo Warning! This will not work for password encrypted PDFs. (The PDF will be listed, but the page count will be blank).
+;;;===,,,echo Warning! This app will only print the page count for the first document in a portfolio.
+;;;===,,,echo Press Ctrl-C to Quit without running, otherwise press any key to continue.
+;;;===,,,pause
+;;;===,,,C:\Windows\System32\findstr.exe /v "^;;;===,,," "%~f0" > 00pdfinfo-extracted.exe
+;;;===,,,powershell -Command "foreach($File in (Get-ChildItem -Path $Folder -Filter *.pdf)){$Pages = (.\00pdfinfo-extracted $File.FullName | Select-String -Pattern '(?<=Pages:\s*)\d+').Matches.Value; $Total += $Pages; [PSCustomObject]@{PdfFile = $File.Name; Pages = $Pages;}}">00numpages.txt
+;;;===,,,del 00pdfinfo-extracted.exe
+;;;===,,,echo If you see an error listed above this line you may have a corrupted/encrypted PDF in this folder.
+;;;===,,,echo Otherwise the program has completed successfully.
+;;;===,,,pause
+;;;===,,,exit /b
