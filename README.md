@@ -13,7 +13,7 @@ Results are in "00numpages.txt" in the target directory.
 04 Signed.pdf | 1 |    
 05 Portfolio.pdf | 1** |
 
-\* Note: Encrypted items will be listed but the page count will be blank.
+\* Note: Encrypted items will be listed but the page count will be blank. Items with passwords that only prevent printing or items that are digitially signed will work normally. 
 
 \*\* Note: PDF Portfolios will be listed but the page count will only reflect the first document in the portfolio. 
 
@@ -35,9 +35,6 @@ Results are in "00numpages.txt" in the target directory.
 6. Read notices/instructions as app runs. Check for errors when completed.
 4. Review new file 00numpages.txt for the results.
 7. This will create a 00numpages.txt for ALL PDF items in the same folder as the PDF you clicked on.
-
-
-# Notes
 
 ## Sources
 - Inspiration: https://dmitrysotnikov.wordpress.com/2008/06/27/powershell-script-in-a-bat-file/
