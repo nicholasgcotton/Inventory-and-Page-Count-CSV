@@ -19,7 +19,7 @@ Results are in "00numpages.txt" in the target directory.
 
 ---
 # Install and Run Manually 
-1. Copy 00-PDFPageCount-v3.bat to your target directory with PDF files.
+1. Copy (00-PDFPageCount-v3.bat)[https://github.com/nicholasgcotton/PDF-Page-Count-Inventory/raw/main/00-PDFPageCount-v3.bat] to your target directory with PDF files.
 2. Run (double-click) 00-PDFPageCount-v3.bat
 3. Read notices/instructions as app runs. Check for errors when completed.
 4. Review new file 00numpages.txt for the results.
@@ -30,7 +30,7 @@ Results are in "00numpages.txt" in the target directory.
 1. Open Explorer and navigate to the user's "SendTo" folder
 2. Paste "shell:sendto" into the URL/folder bar.
 (This should take you to C:\Users\[YOUR LOGIN NAME]\AppData\Roaming\Microsoft\Windows\SendTo
-3. Paste 00-PDFPageCount-v3.bat into the SendTo folder.
+3. Copy (00-PDFPageCount-v3.bat)[https://github.com/nicholasgcotton/PDF-Page-Count-Inventory/raw/main/00-PDFPageCount-v3.bat] into the SendTo folder.
 ## Run from Shell->SendTo
 5. Right click on any PDF and select SendTo->00-PDFPageCount.bat. 
 6. Read notices/instructions as app runs. Check for errors when completed.
