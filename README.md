@@ -12,7 +12,8 @@ Results are in "00-Inventory-and-Page-Count.csv" in the target directory.
 03 Print Password.pdf | 1 | 03 Print Password.pdf (1 page)|
 04 Signed.pdf | 1 | 04 Signed.pdf (1 page)|
 05 Portfolio.pdf | 1* | 05 Portfolio.pdf (1 page)|
-07 Excel.xls | N/A| 07 Excel.xls (Error getting pages)|
+07 Excel.xls | | 07 Excel.xls (Error getting pages)|
+08 Image.jpg |  | 08 Image.jpg (Error getting pages)|
  
 
 \* Note: PDF Portfolios will be listed but the page count will only reflect the first document in the portfolio. 
