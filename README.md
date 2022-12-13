@@ -1,9 +1,9 @@
-# PDF-Page-Count-Inventory
-A batch file to create PDFinfo.exe and use that file to create an inventory of all .PDF files and their page counts.
+# Inventory and Page Count
+A batch file to create PDFinfo.exe and use that file to create an inventory of files, and to add a page count for all .PDF files.
 
 Files are named with 00 so it will sort to the top of the folder in Windows Explorer. 
 
-Results are in "00PDF_PAGE_COUNT.csv" in the target directory.
+Results are in "00-Inventory-and-Page-Count.csv" in the target directory.
 
 |Attachment|Pages |Combined|
 |---|---|----------------|
@@ -12,14 +12,15 @@ Results are in "00PDF_PAGE_COUNT.csv" in the target directory.
 03 Print Password.pdf | 1 | 03 Print Password.pdf (1 page)|
 04 Signed.pdf | 1 | 04 Signed.pdf (1 page)|
 05 Portfolio.pdf | 1* | 05 Portfolio.pdf (1 page)|
+07 Excel.xls | N/A| 07 Excel.xls (Error getting pages)|
  
 
 \* Note: PDF Portfolios will be listed but the page count will only reflect the first document in the portfolio. 
 
 ---
 ## Install and Run Manually 
-1. Copy [00-PDFPageCount-v4.bat](https://github.com/nicholasgcotton/PDF-Page-Count-Inventory/releases/download/v4/00-PDFPageCount-v4.bat)  to your target directory with PDF files.
-2. Run (double-click) 00-PDFPageCount-v4.bat
+1. Copy the batch file to your to your target directory files.
+2. Run (double-click) 00-Inventory-and-Page-Count.bat
 3. Read notices/instructions as app runs. Check for errors when completed.
 4. Review new file 00numpages.txt for the results.
 5. **Cleanup** Delete 00-PDFPageCount-v3.bat from your target directory.
@@ -29,11 +30,11 @@ Results are in "00PDF_PAGE_COUNT.csv" in the target directory.
 1. Open Explorer and navigate to the user's "SendTo" folder
 2. Paste "shell:sendto" into the URL/folder bar.
 (This should take you to C:\Users\[YOUR LOGIN NAME]\AppData\Roaming\Microsoft\Windows\SendTo
-3. Copy [00-PDFPageCount-v4.bat](https://github.com/nicholasgcotton/PDF-Page-Count-Inventory/releases/download/v4/00-PDFPageCount-v4.bat) into the SendTo folder.
+3. Copy 00-Inventory-and-Page-Count.bat into the SendTo folder.
 ### Run from Shell->SendTo
 5. Right click on any PDF and select SendTo->00-PDFPageCount-v4.bat. 
 6. Read notices/instructions as app runs. Check for errors when completed.
-4. Review new file 00PDF_PAGE_COUNT.csv for the results.
+4. Review new file 00-Inventory-and-Page-Count.csv for the results.
 ---
 
 ## Sources
