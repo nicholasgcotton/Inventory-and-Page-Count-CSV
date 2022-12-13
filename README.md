@@ -20,7 +20,7 @@ Results are in "00-Inventory-and-Page-Count.csv" in the target directory.
 
 ---
 ## Install and Run Manually 
-1. Download the batch file from [00-Inventory-and-Page-Count.bat](https://github.com/nicholasgcotton/Inventory-and-Page-Count-CSV/releases/download/v5/00-Inventory.and.Page.Count.bat) to your to your target directory files.
+1. Download the batch file from [00-Inventory-and-Page-Count.bat]https://github.com/nicholasgcotton/Inventory-and-Page-Count-CSV/releases) to your to your target directory files.
 2. Run (double-click) 00-Inventory-and-Page-Count.bat
 3. Read notices/instructions as app runs. Check for errors when completed.
 4. Review new file 00-Inventory-and-Page-Count.csv for the results.
@@ -30,7 +30,7 @@ Results are in "00-Inventory-and-Page-Count.csv" in the target directory.
 ### Installation (Once)
 1. Open Explorer and navigate to the user's "SendTo" folder by pasting "shell:sendto" into the URL/folder bar.
 (This should take you to C:\Users\[YOUR LOGIN NAME]\AppData\Roaming\Microsoft\Windows\SendTo
-2. Download [00-Inventory-and-Page-Count.bat](https://github.com/nicholasgcotton/Inventory-and-Page-Count-CSV/releases/download/v5/00-Inventory.and.Page.Count.bat) into the SendTo folder.
+2. Download [00-Inventory-and-Page-Count.bat](https://github.com/nicholasgcotton/Inventory-and-Page-Count-CSV/releases) into the SendTo folder.
 ### Run from Shell->SendTo
 3. Right click on any PDF and select SendTo->00-PDFPageCount-v4.bat. 
 4. Read notices/instructions as app runs. Check for errors when completed.
