@@ -24,7 +24,7 @@ Results are in "00-Inventory-and-Page-Count.csv" in the target directory.
 2. Run (double-click) 00-Inventory-and-Page-Count.bat
 3. Read notices/instructions as app runs. Check for errors when completed.
 4. Review new file 00numpages.txt for the results.
-5. **Cleanup** Delete 00-PDFPageCount-v3.bat from your target directory.
+5. **Cleanup** Delete 00-Inventory-and-Page-Count.bat from your target directory.
 
 ## Install to Right-Click "Send-To" menu in Windows 10:
 ### Installation (Once)
