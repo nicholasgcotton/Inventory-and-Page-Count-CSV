@@ -1,9 +1,7 @@
 # Inventory and Page Count
-A batch file to create PDFinfo.exe and use that file to create an inventory of files, and to add a page count for all .PDF files.
+A batch file embedded with [PDFInfo.exe](https://www.xpdfreader.com/) and with a PowerShell script that creates a CSV file inventory and calls PDFInfo to supply a page count for all PDF documents in the folder. Also with a -Recursive version that will create an inventory for the folder and all subfolders.
 
-Files are named with 00 so it will sort to the top of the folder in Windows Explorer. 
-
-Results are in "00-Inventory-and-Page-Count.csv" in the target directory.
+Results are in "00-Inventory-and-Page-Count.csv" or 00-Inventory-and-Page-Count-Recursive.csv" in the target directory.
 
 |Attachment|Pages |Combined|
 |---|---|----------------|
