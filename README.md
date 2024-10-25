@@ -63,6 +63,6 @@ Results are in "00-Inventory-and-Page-Count-Recursive.csv" in the target directo
 
 ## License
 
-Copyright [2020-2023] Nicholas Grant Cotton
+Copyright [2020-2024] Nicholas Grant Cotton
 
 Licensed under the GNU General Public License v3.0
