@@ -50,6 +50,13 @@ Results are in "00-Inventory-and-Page-Count-Recursive.csv" in the target directo
 3. Review file 00-Inventory-and-Page-Count.csv for the results.
 ---
 
+### Create Your Own Copy
+1. Download code and save to a text file. File must end with a blank line.
+2. Download PDFINFO.exe from https://www.xpdfreader.com/
+3. Put them into the same folder and run the following command line instruction to put the .exe into the end of the batch file
+   
+   <code>copy /a "00-Inventory and Page Count.txt" + /b pdfinfo.exe /b "00-Inventory and Page Count.bat"</code>
+4. Repeat for each version of the batch file. 
 ## Sources
 - Inspiration: https://dmitrysotnikov.wordpress.com/2008/06/27/powershell-script-in-a-bat-file/
 - Uses embedded PDFInfo v 4.3 from https://www.xpdfreader.com/ used under terms of GLP 3.
